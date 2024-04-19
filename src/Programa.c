@@ -17,11 +17,9 @@ int main(){
 		adicionar_numero_Sequencia(sequencia, n);
 	}
 
-	imprimir_Sequencia(sequencia);
-
-	remover_numero_Sequencia(sequencia, 1);
 
 	imprimir_Sequencia(sequencia);
+	cacular_maior_valor(sequencia);
 
 	desalocar_Sequencia(sequencia);
 	

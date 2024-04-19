@@ -3,7 +3,6 @@
 Sequencia *criar_Sequencia(){
     Sequencia *sequencia = (Sequencia*) malloc(sizeof(Sequencia));
     sequencia->numeros = NULL;
-    sequencia->valor_removido = NULL;
     return sequencia;
 }
 
@@ -14,7 +13,6 @@ bool iniciar_Sequencia(Sequencia *sequencia, int tamanho_max){
     sequencia->tamanho_max =  tamanho_max;
     sequencia->qtd_numeros = 0;
 
-    sequencia->valor_removido = (bool*) malloc(sizeof(bool) * tamanho_max);
     sequencia->numeros = (int*) malloc(sizeof(int) * tamanho_max);
 
     return true;
@@ -24,24 +22,43 @@ bool adicionar_numero_Sequencia(Sequencia *sequencia, int numero){
     if(sequencia->numeros == NULL || sequencia->qtd_numeros == sequencia->tamanho_max)
         return false;
 
-    sequencia->numeros[sequencia->qtd_numeros] = numero;
-    sequencia->valor_removido[sequencia->qtd_numeros++] = false;
+    sequencia->numeros[sequencia->qtd_numeros++] = numero;
     return true;
 }
 
-bool remover_numero_Sequencia(Sequencia *sequencia, int posicao){
+bool remover_conjunto_Sequencia(Sequencia *sequencia, int posicao){
     if(sequencia->numeros == NULL || posicao >= sequencia->tamanho_max)
         return false;
 
     if(ESQUERDA >= 0)
-        sequencia->valor_removido[ESQUERDA] = true;
+        remover_numero_Sequencia(sequencia, --posicao);
 
-    sequencia->valor_removido[posicao] = true;
+    remover_numero_Sequencia(sequencia, posicao);
 
-     if(DIREITA < sequencia->tamanho_max)
-        sequencia->valor_removido[DIREITA] = true;
+    if(DIREITA < sequencia->tamanho_max)
+        remover_numero_Sequencia(sequencia, posicao);
 
     return true;    
+}
+
+bool remover_numero_Sequencia(Sequencia *sequencia, int posicao) {
+    if (sequencia == NULL || sequencia->numeros == NULL || posicao < 0 || posicao >= sequencia->qtd_numeros)
+        return false;
+
+    for (int i = posicao; i < sequencia->qtd_numeros - 1; ++i) {
+        sequencia->numeros[i] = sequencia->numeros[i + 1];
+    }
+
+    sequencia->qtd_numeros--;
+
+    return true;
+}
+
+bool sequencia_estah_vazia(Sequencia *sequencia){
+    if(sequencia->numeros == NULL || sequencia->qtd_numeros == 0)
+        return true;
+
+    return false;
 }
 
 bool imprimir_Sequencia(Sequencia *sequencia){
@@ -49,7 +66,6 @@ bool imprimir_Sequencia(Sequencia *sequencia){
         return false;
 
     for(int i = 0; i < sequencia->qtd_numeros; ++i){
-        if(!sequencia->valor_removido[i])
             printf("%d ", sequencia->numeros[i]);
     }
     printf("\n");
@@ -58,7 +74,6 @@ bool imprimir_Sequencia(Sequencia *sequencia){
 
 bool desalocar_Sequencia(Sequencia *sequencia){
     free(sequencia->numeros);
-    free(sequencia->valor_removido);
     free(sequencia);
     return true;
 }

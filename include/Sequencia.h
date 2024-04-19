@@ -13,13 +13,14 @@
         int tamanho_max;
         int qtd_numeros;
         int *numeros;
-        bool *valor_removido;
     } Sequencia;
 
     Sequencia *criar_Sequencia();
     bool iniciar_Sequencia(Sequencia *sequencia, int tamanho_max);
     bool adicionar_numero_Sequencia(Sequencia *sequencia, int numero);
+    bool remover_conjunto_Sequencia(Sequencia *sequencia, int posicao);
     bool remover_numero_Sequencia(Sequencia *sequencia, int posicao);
+    bool sequencia_estah_vazia(Sequencia *sequencia);
     bool imprimir_Sequencia(Sequencia *sequencia);
     bool desalocar_Sequencia(Sequencia *sequencia);
 

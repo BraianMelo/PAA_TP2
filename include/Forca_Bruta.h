@@ -6,6 +6,7 @@
 
     #include "../include/Sequencia.h"
 
-    bool cacular_maior_valor(Sequencia sequencia);
+    bool cacular_maior_valor(Sequencia *sequencia);
+    void calcular_saldo(Sequencia *sequencia, int posicao, int *saldo);
 
 #endif
