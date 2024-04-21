@@ -1,7 +1,7 @@
 #include "../include/Forca_Bruta.h"
 
 bool cacular_maior_valor(Sequencia *sequencia){
-    int pontuacao = 0;
+    long int pontuacao = 0;
     int saldo;
     int maior_saldo;
     int posicao_maior_saldo;
@@ -24,7 +24,7 @@ bool cacular_maior_valor(Sequencia *sequencia){
 
     }
 
-    printf("%d\n", pontuacao);
+    printf("%ld\n", pontuacao);
     return true;
 }
 
