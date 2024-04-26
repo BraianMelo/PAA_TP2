@@ -6,7 +6,10 @@
 
     #include "../include/Sequencia.h"
 
-    bool cacular_maior_valor(Sequencia *sequencia);
+    bool Forca_Bruta(Sequencia *sequencia);
+    //O maior saldo da sequência é removido até a sequência estiver vazia 
+
     void calcular_saldo(Sequencia *sequencia, int posicao, int *saldo);
+    //Saldo = (O valor da célula) - (Os valores das células vizinhas)
 
 #endif

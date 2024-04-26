@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "forca_bruta.h": "c"
+        "forca_bruta.h": "c",
+        "prog_dinamica.h": "c",
+        "stdio.h": "c"
     }
 }

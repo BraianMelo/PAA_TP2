@@ -1,6 +1,6 @@
 #include "../include/Forca_Bruta.h"
 
-bool cacular_maior_valor(Sequencia *sequencia){
+bool Forca_Bruta(Sequencia *sequencia){
     long int pontuacao = 0;
     int saldo;
     int maior_saldo;
