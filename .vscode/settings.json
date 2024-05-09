@@ -2,6 +2,15 @@
     "files.associations": {
         "forca_bruta.h": "c",
         "prog_dinamica.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "stdbool.h": "c",
+        "malloc.h": "c",
+        "random": "c",
+        "sequencia.h": "c",
+        "alternativa.h": "c"
     }
 }

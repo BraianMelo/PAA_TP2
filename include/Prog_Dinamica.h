@@ -6,9 +6,9 @@
     #include <stdbool.h>
 
     #include "../include/Sequencia.h"
-    #include "../include/Forca_Bruta.h"
 
-    bool Dinamica(Sequencia *sequencia, int tamanho);
+    int maior(unsigned a, unsigned b); //Retornar o maior valor entre dois numeros
+    bool maior_pontuacao_Dinamica(Sequencia *sequencia);
 
 
 #endif

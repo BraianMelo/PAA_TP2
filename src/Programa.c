@@ -4,13 +4,13 @@
 #include <unistd.h>
 
 #include "../include/Sequencia.h"
-#include "../include/Forca_Bruta.h"
+#include "../include/Alternativa.h"
 #include "../include/Prog_Dinamica.h"
 
 #include "../include/Tempo.h"
 
 int main(){
-
+	
 	struct timeval ini_tempo_total, fim_tempo_total;
     struct rusage inicio, fim;
 
@@ -36,17 +36,18 @@ int main(){
 	}
 
 	if(tipo == 'D' || tipo == 'd'){
-		Dinamica(sequencia, tamanho);
-		printf("Programação Dinamica: ");
+		printf("Programação Dinamica: \n");
+		maior_pontuacao_Dinamica(sequencia);
+
 	} else {
-		Forca_Bruta(sequencia);
-		printf("Forca Bruta: ");
+		printf("Metodo alternativo: \n");
+		metodo_Alternativo(sequencia);
 	}
 		
 	desalocar_Sequencia(sequencia);
 
 	parar_contagem(&fim_tempo_total, &fim);
-	printar_tempo_gasto(&ini_tempo_total, &inicio, &fim_tempo_total, &fim);
+		printar_tempo_gasto(&ini_tempo_total, &inicio, &fim_tempo_total, &fim);
 	
 	return 0;
 }
