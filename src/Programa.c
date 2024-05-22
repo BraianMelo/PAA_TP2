@@ -37,10 +37,10 @@ int main(){
 
 	if(tipo == 'D' || tipo == 'd'){
 		printf("Programação Dinamica: \n");
-		maior_pontuacao_Dinamica(sequencia);
+		metodo_Dinamico(sequencia);
 
 	} else {
-		printf("Metodo alternativo: \n");
+		printf("Metodo alternativo / Tentativa: \n");
 		metodo_Alternativo(sequencia);
 	}
 		

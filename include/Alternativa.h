@@ -6,7 +6,6 @@
 
     #include "../include/Prog_Dinamica.h"
 
-    int chamada_recursiva(Sequencia *sequencia, int tamanho);
     bool metodo_Alternativo(Sequencia *sequencia);
 
 

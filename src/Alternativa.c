@@ -1,27 +1,37 @@
 #include "../include/Alternativa.h"
 
-int chamada_recursiva(Sequencia *sequencia, int tamanho){
-  if(sequencia->qtd_numeros == 0)
-        return 0;
+bool metodo_Alternativo(Sequencia *sequencia){
+
+    if(sequencia->qtd_numeros == 0)
+        return false;
 
     if(sequencia->qtd_numeros == 1){
-        return sequencia->numeros[0];
+        printf("%d\n", sequencia->numeros[0]);
+        return true;
     }
 
     if(sequencia->qtd_numeros == 2){
-        return maior(sequencia->numeros[0], sequencia->numeros[1]);
-
-    long int incluso = sequencia->numeros[sequencia->qtd_numeros - 1] + chamada_recursiva(sequencia, tamanho - 2);
-    long int excluso = chamada_recursiva(sequencia, tamanho - 1);
-
-    return maior(incluso, excluso);
-
+        printf("%d\n", maior(sequencia->numeros[0], sequencia->numeros[1]));
+        return true;
     }
-}
 
-bool metodo_Alternativo(Sequencia *sequencia){
-    int pontuacao = chamada_recursiva(sequencia, sequencia->qtd_numeros);
-    printf("%d \n", pontuacao);
+    Sequencia *pontuacao = criar_Sequencia();
+    iniciar_Sequencia(pontuacao, sequencia->tamanho_max);
+
+    adicionar_numero_Sequencia(pontuacao, sequencia->numeros[0]);
+    adicionar_numero_Sequencia(pontuacao, sequencia->numeros[1]);
+    adicionar_numero_Sequencia(pontuacao, sequencia->numeros[2] + sequencia->numeros[0]);
+
+    int maior_precedente;
+
+    for(int i = 3; i < sequencia->tamanho_max; ++i){
+        maior_precedente = maior(pontuacao->numeros[i-2], pontuacao->numeros[i-3]);
+        adicionar_numero_Sequencia(pontuacao, sequencia->numeros[i] + maior_precedente);
+    }
+
+    int maior_valor = maior(pontuacao->numeros[pontuacao->qtd_numeros - 1], pontuacao->numeros[pontuacao->qtd_numeros - 2]);
+    printf("%d \n", maior_valor);
+    desalocar_Sequencia(pontuacao);
+
     return true;
 }
-

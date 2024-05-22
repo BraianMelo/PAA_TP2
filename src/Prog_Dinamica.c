@@ -4,7 +4,7 @@ int maior(unsigned a, unsigned b){
     return (a > b) ? a : b;
 }
 
-bool maior_pontuacao_Dinamica(Sequencia *sequencia) {
+bool metodo_Dinamico(Sequencia *sequencia) {
     if(sequencia->qtd_numeros == 0)
         return false;
 

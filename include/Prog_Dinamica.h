@@ -8,7 +8,7 @@
     #include "../include/Sequencia.h"
 
     int maior(unsigned a, unsigned b); //Retornar o maior valor entre dois numeros
-    bool maior_pontuacao_Dinamica(Sequencia *sequencia);
+    bool metodo_Dinamico(Sequencia *sequencia);
 
 
 #endif
