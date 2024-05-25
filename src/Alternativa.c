@@ -1,6 +1,6 @@
 #include "../include/Alternativa.h"
 
-bool metodo_Alternativo(Sequencia *sequencia){
+bool metodo_Alternativo(Sequencia *sequencia, FILE **arquivo_saida){
 
     if(sequencia->qtd_numeros == 0)
         return false;
@@ -30,7 +30,9 @@ bool metodo_Alternativo(Sequencia *sequencia){
     }
 
     int maior_valor = maior(pontuacao->numeros[pontuacao->qtd_numeros - 1], pontuacao->numeros[pontuacao->qtd_numeros - 2]);
+    fprintf(*arquivo_saida, "%d \n", maior_valor);
     printf("%d \n", maior_valor);
+    
     desalocar_Sequencia(pontuacao);
 
     return true;

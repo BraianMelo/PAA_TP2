@@ -4,7 +4,7 @@ int maior(unsigned a, unsigned b){
     return (a > b) ? a : b;
 }
 
-bool metodo_Dinamico(Sequencia *sequencia) {
+bool metodo_Dinamico(Sequencia *sequencia, FILE **arquivo_saida) {
     if(sequencia->qtd_numeros == 0)
         return false;
 
@@ -30,5 +30,9 @@ bool metodo_Dinamico(Sequencia *sequencia) {
     }
 
     int pontuacao = maior(incluso, excluso);
-    printf("%d\n", pontuacao);
+    
+    fprintf(*arquivo_saida, "%d\n", pontuacao);
+    printf("%d \n", pontuacao);
+
+    return true;
 }

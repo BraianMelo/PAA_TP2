@@ -1,0 +1,336 @@
+Executando ./bin/Programa com input 5
+Execução 1 para input 5:
+Programação Dinamica: 
+8 
+
+Tempo total decorrido: 0.000071 segundos
+Tempo de CPU: 0.000068 segundos
+Tempo de usuário: 0.000000 segundos
+--------------------------------------------
+Execução 2 para input 5:
+Programação Dinamica: 
+8 
+
+Tempo total decorrido: 0.000048 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000045 segundos
+--------------------------------------------
+Execução 3 para input 5:
+Programação Dinamica: 
+8 
+
+Tempo total decorrido: 0.000046 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000044 segundos
+--------------------------------------------
+Execução 4 para input 5:
+Programação Dinamica: 
+8 
+
+Tempo total decorrido: 0.000043 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000042 segundos
+--------------------------------------------
+Execução 5 para input 5:
+Programação Dinamica: 
+8 
+
+Tempo total decorrido: 0.000043 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000042 segundos
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Executando ./bin/Programa com input 9
+Execução 1 para input 9:
+Programação Dinamica: 
+10 
+
+Tempo total decorrido: 0.000069 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000066 segundos
+--------------------------------------------
+Execução 2 para input 9:
+Programação Dinamica: 
+10 
+
+Tempo total decorrido: 0.000047 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000045 segundos
+--------------------------------------------
+Execução 3 para input 9:
+Programação Dinamica: 
+10 
+
+Tempo total decorrido: 0.000076 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000073 segundos
+--------------------------------------------
+Execução 4 para input 9:
+Programação Dinamica: 
+10 
+
+Tempo total decorrido: 0.000044 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000043 segundos
+--------------------------------------------
+Execução 5 para input 9:
+Programação Dinamica: 
+10 
+
+Tempo total decorrido: 0.000043 segundos
+Tempo de CPU: 0.000042 segundos
+Tempo de usuário: 0.000000 segundos
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Executando ./bin/Programa com input 10
+Execução 1 para input 10:
+Programação Dinamica: 
+30 
+
+Tempo total decorrido: 0.000043 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000040 segundos
+--------------------------------------------
+Execução 2 para input 10:
+Programação Dinamica: 
+30 
+
+Tempo total decorrido: 0.000041 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000040 segundos
+--------------------------------------------
+Execução 3 para input 10:
+Programação Dinamica: 
+30 
+
+Tempo total decorrido: 0.000042 segundos
+Tempo de CPU: 0.000041 segundos
+Tempo de usuário: 0.000000 segundos
+--------------------------------------------
+Execução 4 para input 10:
+Programação Dinamica: 
+30 
+
+Tempo total decorrido: 0.000044 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000042 segundos
+--------------------------------------------
+Execução 5 para input 10:
+Programação Dinamica: 
+30 
+
+Tempo total decorrido: 0.000043 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000042 segundos
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Executando ./bin/Programa com input 50
+Execução 1 para input 50:
+Programação Dinamica: 
+1259 
+
+Tempo total decorrido: 0.000053 segundos
+Tempo de CPU: 0.000050 segundos
+Tempo de usuário: 0.000000 segundos
+--------------------------------------------
+Execução 2 para input 50:
+Programação Dinamica: 
+1259 
+
+Tempo total decorrido: 0.000093 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000090 segundos
+--------------------------------------------
+Execução 3 para input 50:
+Programação Dinamica: 
+1259 
+
+Tempo total decorrido: 0.000085 segundos
+Tempo de CPU: 0.000082 segundos
+Tempo de usuário: 0.000000 segundos
+--------------------------------------------
+Execução 4 para input 50:
+Programação Dinamica: 
+1259 
+
+Tempo total decorrido: 0.000054 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000051 segundos
+--------------------------------------------
+Execução 5 para input 50:
+Programação Dinamica: 
+1259 
+
+Tempo total decorrido: 0.000064 segundos
+Tempo de CPU: 0.000061 segundos
+Tempo de usuário: 0.000000 segundos
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Executando ./bin/Programa com input 100
+Execução 1 para input 100:
+Programação Dinamica: 
+3008 
+
+Tempo total decorrido: 0.000056 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000054 segundos
+--------------------------------------------
+Execução 2 para input 100:
+Programação Dinamica: 
+3008 
+
+Tempo total decorrido: 0.000051 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000049 segundos
+--------------------------------------------
+Execução 3 para input 100:
+Programação Dinamica: 
+3008 
+
+Tempo total decorrido: 0.000050 segundos
+Tempo de CPU: 0.000048 segundos
+Tempo de usuário: 0.000000 segundos
+--------------------------------------------
+Execução 4 para input 100:
+Programação Dinamica: 
+3008 
+
+Tempo total decorrido: 0.000051 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000049 segundos
+--------------------------------------------
+Execução 5 para input 100:
+Programação Dinamica: 
+3008 
+
+Tempo total decorrido: 0.000050 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000049 segundos
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Executando ./bin/Programa com input 1000
+Execução 1 para input 1000:
+Programação Dinamica: 
+29125 
+
+Tempo total decorrido: 0.000206 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000204 segundos
+--------------------------------------------
+Execução 2 para input 1000:
+Programação Dinamica: 
+29125 
+
+Tempo total decorrido: 0.000192 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000190 segundos
+--------------------------------------------
+Execução 3 para input 1000:
+Programação Dinamica: 
+29125 
+
+Tempo total decorrido: 0.000225 segundos
+Tempo de CPU: 0.000222 segundos
+Tempo de usuário: 0.000000 segundos
+--------------------------------------------
+Execução 4 para input 1000:
+Programação Dinamica: 
+29125 
+
+Tempo total decorrido: 0.000148 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000147 segundos
+--------------------------------------------
+Execução 5 para input 1000:
+Programação Dinamica: 
+29125 
+
+Tempo total decorrido: 0.000166 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.000164 segundos
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Executando ./bin/Programa com input 10000
+Execução 1 para input 10000:
+Programação Dinamica: 
+292327 
+
+Tempo total decorrido: 0.001094 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.001091 segundos
+--------------------------------------------
+Execução 2 para input 10000:
+Programação Dinamica: 
+292327 
+
+Tempo total decorrido: 0.001026 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.001024 segundos
+--------------------------------------------
+Execução 3 para input 10000:
+Programação Dinamica: 
+292327 
+
+Tempo total decorrido: 0.001113 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.001111 segundos
+--------------------------------------------
+Execução 4 para input 10000:
+Programação Dinamica: 
+292327 
+
+Tempo total decorrido: 0.001085 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.001083 segundos
+--------------------------------------------
+Execução 5 para input 10000:
+Programação Dinamica: 
+292327 
+
+Tempo total decorrido: 0.001188 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.001185 segundos
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Executando ./bin/Programa com input 100000
+Execução 1 para input 100000:
+Programação Dinamica: 
+2948570 
+
+Tempo total decorrido: 0.010706 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.010688 segundos
+--------------------------------------------
+Execução 2 para input 100000:
+Programação Dinamica: 
+2948570 
+
+Tempo total decorrido: 0.012828 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.012661 segundos
+--------------------------------------------
+Execução 3 para input 100000:
+Programação Dinamica: 
+2948570 
+
+Tempo total decorrido: 0.010581 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.010530 segundos
+--------------------------------------------
+Execução 4 para input 100000:
+Programação Dinamica: 
+2948570 
+
+Tempo total decorrido: 0.010216 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.010215 segundos
+--------------------------------------------
+Execução 5 para input 100000:
+Programação Dinamica: 
+2948570 
+
+Tempo total decorrido: 0.010147 segundos
+Tempo de CPU: 0.000000 segundos
+Tempo de usuário: 0.010133 segundos
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++

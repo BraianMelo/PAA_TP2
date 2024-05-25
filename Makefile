@@ -1,6 +1,6 @@
 all: obj/Programa.o obj/Sequencia.o obj/Alternativa.o obj/Prog_Dinamica.o obj/Tempo.o
-	gcc obj/Programa.o obj/Sequencia.o obj/Alternativa.o obj/Prog_Dinamica.o obj/Tempo.o -o Programa
-	mv Programa bin/
+	gcc obj/Programa.o obj/Sequencia.o obj/Alternativa.o obj/Prog_Dinamica.o obj/Tempo.o -o tp2
+	mv tp2 bin/
 	
 obj/Programa.o: src/Programa.c
 	gcc src/Programa.c -c

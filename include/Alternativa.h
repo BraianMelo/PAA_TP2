@@ -6,7 +6,7 @@
 
     #include "../include/Prog_Dinamica.h"
 
-    bool metodo_Alternativo(Sequencia *sequencia);
+    bool metodo_Alternativo(Sequencia *sequencia, FILE **arquivo_saida);
 
 
 #endif
